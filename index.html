@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+
+        <div class="input-container">
+            <label for="agregarItems">Agregar Items</label>
+            <input id="agregarItems" type="text">
+            <button onclick="agregarItems()" id="agregar">Agregar</button>
+        </div>
+
+        <ul id="listaItems">
+        </ul>
+
+        <div class="stats">
+            <p>Tareas Totales: <span id="sumaTareasTotales"></span></p>
+            <p>Tareas Realizadas: <span id="contadorTareasCompletadas"></span></p>
+        </div>
+    </div>
+
+
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
